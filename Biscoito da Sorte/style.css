@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+}
+.hide {
+    display: none;
+}
+
+
+
+button{
+    border: none;
+    background-color: unset;
+}
+
+body { 
+    background: linear-gradient(45deg, #190361, #ee00ff);
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+header{
+    background-color: #323232;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    padding: 1px;
+    color: rgb(147, 147, 147);
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    margin-left: 2px;
+}
+
+main {
+    background-color: #fff;
+    height: 424px;
+    width: 428px;
+    border-radius: 4%;
+    margin: 25vh;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+h1 h2{
+    width: 258px;
+    height: 58px;
+    font-size: 24px;
+    font-family: 'Montserrate, sans-serif';
+}
+
+
+p {
+    font-size: 15px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+div {
+    margin: 48px 64px 64px;
+    text-align: center;
+
+
+}
+.mensagem{
+    font-family: 'Dancing Script, sans-serif';
+}
+
+
+
+.mensagem{
+    width: 283px;
+    height: 90px;
+
+    font-size: 24px;
+    border-radius: 4%;
+    margin-top: 17px;
+    margin-bottom: 60px;
+    padding: 10px;
+    background-color: rgba(228, 237, 241);
+
+    text-align: center;
+
+}
+
+#reset{
+    
+    width: 174px;
+    height: 20px;
+    background-color: rgb(255, 214, 138);
+    border-radius: 8%;
+    margin-top: 15px;
+}
